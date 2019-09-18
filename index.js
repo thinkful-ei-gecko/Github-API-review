@@ -7,7 +7,7 @@ function generateResults(resJson) {
 		results = resJson.map(repo => {
 		return `
 				<h3>Name: ${repo.name}</h3>
-			<p>URL:<a href="${repo.url}">${repo.url}</a></p>`;
+			<p>URL:<a href="${repo.html_url}">${repo.html_url}</a></p>`;
 	});
 } else {
 	results = '<h2>Sorry, no results found</h2>';
