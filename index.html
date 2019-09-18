@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>GitHub Search</title>
+</head>
+<body>
+    <header>
+        <h1>GitHub Search</h1>
+        <p>Yeah, yeah... show us the code!</p>
+    </header>
+    <main>
+        <form id="form">
+                <label class="form_label">
+                    <input type="search" class="form_searchbar" placeholder="Enter a handle">
+                </label>
+            <button type="submit" class="form_button">Search!</button>
+        </form>
+
+        <section class="results">
+        </section>
+        <section id="js-error"></section>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
